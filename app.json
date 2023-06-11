@@ -1,9 +1,9 @@
 {
     "name": "Genius-Userbot",
-    "logo": "https://te.legra.ph/file/ceee32999a8250a1f7ebb.png",
+    "logo": "https://telegra.ph/file/b79fdbd665072c01ffb2e.jpg",
     "description": "An Advanced Premium Music & user Bot For Telegram ID.",
     "keywords": ["music", "voice chat", "userbot"],
-    "repository": "https://github.com/GeniusBoi/Genius-Userbot",
+    "repository": "https://github.com/Xdarnav/Genius-Userbot",
     "stack": "container",
     "env": {
         "API_ID": {
