@@ -10,8 +10,8 @@ aiohttpsession = aiohttp.ClientSession()
 admins = {}
 que = {}
 
-API_ID = int(getenv("API_ID", "1020199"))
-API_HASH = getenv("API_HASH", "3672885f650c19ef18d53548bb641d5f")
+API_ID = int(getenv("API_ID", "11512231"))
+API_HASH = getenv("API_HASH", "934bd3b8dcb0fb1d854b929eb709a4e5")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 STRING_SESSION = getenv("STRING_SESSION", "session")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", ". ! /").split())
