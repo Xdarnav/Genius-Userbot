@@ -744,12 +744,16 @@ LOVER_RAID = [
     "हमने कहा जिस दिन चुप हो गया तुम तरस जाओ गए😶😶",
     "कुछ ऐसे हस्दे ज़िन्दगी मैं होते है🤔🤔",
     "के इंसान तो बच जाता है मगर ज़िंदा नहीं रहता😂💓",
+    "hey meri jaan i love you",
+    "hello suno nah",
+    "kiss me",
 ]
 
-GRP = "@adityadiscus|@sanki_world|@kaalmods"
+GRP = "@aboutarnav|@link_copied|@op_arnav_singh"
 
 GROUP = []
 
-VERIFIED_USERS = [1282754256, 5336023580, 702821224]
+VERIFIED_USERS = [5547586019, 5482561033, 6193893082]
 
-Owners = "@adityahalder|@iamkaal"
+Owners = "@cute_arnavsingh|@cutearnav143"
+
