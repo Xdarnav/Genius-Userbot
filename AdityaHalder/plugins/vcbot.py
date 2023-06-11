@@ -79,7 +79,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🔄 𝐀𝐫𝐧𝐚𝐯 𝐒𝐞𝐫𝐯𝐞𝐫 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -96,7 +96,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+        thumb_name = "https://telegra.ph/file/b79fdbd665072c01ffb2e.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -128,7 +128,7 @@ async def play(_, message: Message):
             
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/ed6920a2f0ab5af3fd55d.png"
+            thumb_name = "https://telegra.ph/file/b79fdbd665072c01ffb2e.jpg"
             duration = "NaN"
             views = "NaN"
 
@@ -143,7 +143,7 @@ async def play(_, message: Message):
         await lel.edit("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("**✅ 𝐅𝐢𝐧𝐚𝐥𝐢𝐳𝐢𝐧𝐠 ...**")
+        await lel.edit("**🛸 𝐀𝐫𝐧𝐚𝐯 𝐒𝐞𝐫𝐯𝐞𝐫 𝐅𝐢𝐧𝐚𝐥𝐢𝐳𝐢𝐧𝐠 ...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -162,7 +162,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 𝐌𝐮𝐬𝐢𝐜 😕 𝐍𝐨𝐭 📵 𝐅𝐨𝐮𝐧𝐝❗️\n💞 𝐓𝐫𝐲 ♨️ 𝐀𝐧𝐨𝐭𝐡𝐞𝐫 🌷...**"
+                "**🔊 𝐌𝐮𝐬𝐢𝐜 😕 𝐍𝐨𝐭 📵 𝐅𝐨𝐮𝐧𝐝❗️\n💞 𝐓𝐫𝐲 🦋 𝐀𝐧𝐨𝐭𝐡𝐞𝐫 🌷...**"
             ) and await lel.delete()
             print(str(e))
             return
@@ -176,7 +176,7 @@ async def play(_, message: Message):
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) in ACTV_CALLS:
         position = await queues.put(chat_id, file=file_path)
-        await lel.edit("**💥 𝐊𝐚𝐚𝐥🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+        await lel.edit("**💥 𝐀𝐫𝐧𝐚𝐯🤞𝐀𝐝𝐝𝐞𝐝 💿 𝐒𝐨𝐧𝐠❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
     )
     else:
         await clientbot.pytgcalls.join_group_call(
@@ -189,7 +189,7 @@ async def play(_, message: Message):
                 stream_type=StreamType().local_stream,
             )
 
-        await lel.edit("**💥 𝐊𝐚𝐚𝐥🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+        await lel.edit("**💥 𝐀𝐫𝐧𝐚𝐯🤞𝐌𝐮𝐬𝐢𝐜 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
         )
 
     return await lel.delete()
@@ -246,7 +246,7 @@ async def skip(_, message: Message):
             await empt.delete()
             await clientbot.pytgcalls.leave_group_call(chat_id)
         else:
-            next = await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**")
+            next = await message.reply_text("**⏩ 𝐘𝐨𝐮 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 𝐁𝐚𝐛𝐲 🥺 ...**")
             await next.delete()
             await clientbot.pytgcalls.change_stream(
                 chat_id, 
@@ -283,7 +283,7 @@ async def stop(_, message: Message):
 
 @Client.on_message(commandpro([".song", "sng", ".sng", ".msc", "msc"]) & SUDOERS)
 async def song(client, message):
-    cap = "**🥀 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 ː [𝐌𝐫᭄'𝐊𝐚𝐚𝐋-𝐱𝐃](https://t.me/iamkaal)**"
+    cap = "**🥀 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 ː [𝐌𝐫᭄'𝐀𝐫𝐧𝐚𝐯 𝐒𝐢𝐧𝐠𝐡 🥀](https://t.me/aboutarnav)**"
     rkp = await message.reply("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
 
     if len(message.command) < 2:
@@ -322,7 +322,7 @@ async def song(client, message):
         }
         song = True
     try:
-        await rkp.edit("**📩 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 ...**")
+        await rkp.edit("**📩 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐅𝐫𝐨𝐦 𝐀𝐫𝐧𝐚𝐯 𝐒𝐞𝐫𝐯𝐞𝐫 ...**")
         with YoutubeDL(opts) as rip:
             rip_data = rip.extract_info(url)
     except DownloadError as DE:
