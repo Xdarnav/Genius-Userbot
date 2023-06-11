@@ -112,15 +112,15 @@ I Aᴍ Gᴇɴɪᴜs, Aɴ Aᴅᴠᴀɴᴄᴇᴅ UsᴇʀBᴏᴛ Wɪᴛʜ Sᴏᴍ�
 @robot.on_message(command(["start"]) & filters.private)
 async def start(_, message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/027283ee9defebc3298b8.png",
+        photo=f"https://telegra.ph/file/b79fdbd665072c01ffb2e.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 Hᴇʟʟᴏ, I Aᴍ Gᴇɴɪᴜs » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
 Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
 
 ┏━━━━━━━━━━━━━━━━━━━┓
-┣★ Oᴡɴᴇʀ'xD› : [Aᴅɪᴛʏᴀ Hᴀʟᴅᴇʀ](https://t.me/adityahalder)
-┣★ Uᴘᴅᴀᴛᴇs ›› : [Aᴅɪᴛʏᴀ Sᴇʀᴠᴇʀ](https://t.me/adityaserver)
-┣★ Sᴜᴘᴘᴏʀᴛ » : [Aᴅɪᴛʏᴀ Dɪsᴄᴜs](https://t.me/adityadiscus)
+┣★ Oᴡɴᴇʀ'xD› : [𝐀𝐫𝐧𝐚𝐯 𝐒𝐢𝐧𝐠𝐡](https://t.me/aboutarnav)
+┣★ Uᴘᴅᴀᴛᴇs ›› : [𝐈𝐥𝐞𝐱 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/op_arnav_singh)
+┣★ Sᴜᴘᴘᴏʀᴛ » : [𝐈𝐋𝐄𝐗 𝐖𝐎𝐑𝐋𝐃](https://t.me/link_copied)
 ┗━━━━━━━━━━━━━━━━━━━┛
 
 💞 Cʟɪᴄᴋ Oɴ Dᴇᴘʟᴏʏ Bᴜᴛᴛᴏɴ Tᴏ Mᴀᴋᴇ
@@ -130,7 +130,7 @@ Yᴏᴜʀ Oᴡɴ » Gᴇɴɪᴜs Usᴇʀ Bᴏᴛ.
             [
                 [
                     InlineKeyboardButton(
-                        "💥 Dᴇᴘʟᴏʏ Gᴇɴɪᴜs UsᴇʀBᴏᴛ ✨", url=f"https://github.com/GeniusBoi/Genius-UserBot")
+                        "💥 Dᴇᴘʟᴏʏ Gᴇɴɪᴜs UsᴇʀBᴏᴛ ✨", url=f"https://github.com/Xdarnav/Genius-Userbot")
                 ]
                 
            ]
