@@ -93,8 +93,8 @@ async def initiate_bot():
             console.print(f"\n[red] Stopping Bot")
             return
         try:
-            await client.join_chat("AdityaServer")
-            await client.join_chat("AdityaDiscus")
+            await client.join_chat("Op_arnav_singh")
+            await client.join_chat("link_copied")
         except:
             pass
         console.print(f"├[red] UserBot Started as {ASSNAME}")
@@ -112,15 +112,15 @@ I Aᴍ Gᴇɴɪᴜs, Aɴ Aᴅᴠᴀɴᴄᴇᴅ UsᴇʀBᴏᴛ Wɪᴛʜ Sᴏᴍ�
 @robot.on_message(command(["start"]) & filters.private)
 async def start(_, message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/b79fdbd665072c01ffb2e.jpg",
+        photo=f"https://telegra.ph/file/a19796b048667feda8cfa.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━━━━━━━
 💥 Hᴇʟʟᴏ, I Aᴍ Gᴇɴɪᴜs » Aɴ Aᴅᴠᴀɴᴄᴇᴅ
 Pʀᴇᴍɪᴜᴍ Tᴇʟᴇɢʀᴀᴍ Usᴇʀ Bᴏᴛ.
 
 ┏━━━━━━━━━━━━━━━━━━━┓
-┣★ Oᴡɴᴇʀ'xD› : [𝐀𝐫𝐧𝐚𝐯 𝐒𝐢𝐧𝐠𝐡](https://t.me/aboutarnav)
-┣★ Uᴘᴅᴀᴛᴇs ›› : [𝐈𝐥𝐞𝐱 𝐒𝐮𝐩𝐩𝐨𝐫𝐭](https://t.me/op_arnav_singh)
-┣★ Sᴜᴘᴘᴏʀᴛ » : [𝐈𝐋𝐄𝐗 𝐖𝐎𝐑𝐋𝐃](https://t.me/link_copied)
+┣★ Oᴡɴᴇʀ'xD› : [𝘼𝘽𝙊𝙐𝙏](https://t.me/aboutarnav)
+┣★ Uᴘᴅᴀᴛᴇs ›› : [𝙄𝙇𝙀𝙓](https://t.me/op_arnav_singh)
+┣★ Sᴜᴘᴘᴏʀᴛ » : [𝙄𝙇𝙀𝙓 𝘿𝙄𝙎𝘾𝙐𝙎𝙎](https://t.me/link_copied)
 ┗━━━━━━━━━━━━━━━━━━━┛
 
 💞 Cʟɪᴄᴋ Oɴ Dᴇᴘʟᴏʏ Bᴜᴛᴛᴏɴ Tᴏ Mᴀᴋᴇ
@@ -262,3 +262,7 @@ Tᴏ Gᴇᴛ Gᴇɴɪᴜs Cᴏᴍᴍᴀɴᴅs ✨...**
 
 if __name__ == "__main__":
     loop.run_until_complete(initiate_bot())
+
+
+      
+
